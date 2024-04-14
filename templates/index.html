@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<title>Price Prediction Portal</title>
+
+<style>
+    h2 {
+        text-align: center;
+    }
+</style>
+
+<h2>CAB PRICE PREDICTION PORTAL</h2>
+<form action='/fildetails' method='post' enctype='multipart/form-data'>
+
+    <body>
+        <h4>Fill The Below Details For Vehicle Price Prediction</h4>
+
+
+        <label for="name">Vehicles :</label>
+        <select name="name" id="name"> 
+  <option></option>
+  <option value='Lux'>Lux </option> 
+  <option value="Shared">Shared</option>
+  <option value='Lyft'>Lyft</option>
+  <option value="Lux Black XL">Lux Black XL</option>   
+  <option value="Lyft XL">Lyft XL</option>
+  <option value="Lux Black">Lux Black</option> 
+  <option value="Uber XL">UberXL</option>
+  <option value="Black">Black</option>  
+  <option value="UberX">UberX</option>
+  <option value="WAV">WAV</option>   
+  <option value="Black SUV">Black SUV</option> 
+  <option value="UberPool">UberPool</option>  
+  <option value="Taxi">Taxi</option></select>
+
+
+
+        <p>
+            <label>distance </label>
+            <input type='number' placeholder='distance' name='distance'></p>
+
+        <p><label>surge_multiplier  </label>
+            <input type="number" placeholder='surge_multiplier' name='multiplier'></p>
+
+        <p>
+            <label>Cab_Type </label>
+            <select name="cab_type" id="cab_type">
+ <option> </option> 
+  <option value='Lyft',> Lyft </option> 
+  <option value="Uber">Uber</option></select></p>
+
+
+        <p>
+            <label>Product_Id</label>
+            <select name="product" id="Product_Id"> 
+  <option></option>
+  <option value='lyft'>lyft</option> 
+  <option value="lyft_line">lyft_line</option>
+  <option value='lyft_lux'>lyft_lux</option>
+  <option value="lyft_luxsuv">lyft_luxsuv</option>   
+  <option value="lyft_plus">lyft_plus</option>
+  <option value="lyft_premier">lyft_premier</option> </select></p>
+
+
+        <p>
+            <label>Destination</label>
+            <select name="destination" id="Destination"> 
+  <option></option>
+  <option value='Back Bay'>Back Bay</option> 
+  <option value="Beacon Hill">Beacon Hill</option>
+  <option value='Boston University'>Boston University</option>
+  <option value="Fenway">Fenway</option>   
+  <option value="Haymarket Square">Haymarket Square</option>
+  <option value="Financial District">Financial District</option>
+  <option value="North End">North End</option> 
+  <option value="North Station">North Station</option>   
+  <option value="Northeastern University">Northeastern University</option>
+  <option value="South Station">South Station</option> 
+  <option value="Theatre District">Theatre District</option>
+  <option value="West End">West End</option> </select></p>
+
+
+        <p>
+            <h>
+                <button type="submit" value="submit">Submit</button>
+                <input type="reset" value='Reset'>
+                <br></br>
+                <br></br>
+
+                Predicted Price is : {{msg}}
+            </h>
+            </div>
+
+
+</form>
+</body>
+
+</html>
