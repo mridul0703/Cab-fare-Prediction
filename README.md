@@ -83,8 +83,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any inquiries or feedback, please contact us at [email@example.com](mailto:mridulmkumar07@gmail.com).
-```
-
-In this format, you have sections covering the features, installation, usage, machine learning models used, Kaggle competition participation and solution, contributing guidelines, license, and contact information. You can adjust the content as needed for your specific project. 
-
-As for opening the directory in Google Colab, you can provide a link to a Google Colab notebook in the "Usage" section where users can directly open and interact with the project in a Colab environment.
