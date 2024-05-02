@@ -28,7 +28,7 @@ To run the machine learning project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/cab-fare-prediction.git
+   git clone https://github.com/mridul0703/Cab-fare-Prediction.git
    ```
 
 2. Navigate to the project directory:
